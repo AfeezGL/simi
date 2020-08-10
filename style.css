@@ -214,3 +214,26 @@ footer ul{
         padding: 0 1.5rem;
     }
 }
+@media (max-width: 700px){
+	.winners{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		grid-gap: 1rem;
+		justify-content: space-around;
+	}
+	.winner{
+		width: 300px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+@media (max-width: 500px){
+	.email-input{
+		height: 50px;
+		padding: 0.2rem;
+		margin-right: 2rem;
+	}
+	.submit{
+		width: 140px;
+	}
+}
