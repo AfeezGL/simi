@@ -200,7 +200,8 @@ footer ul{
         padding-left: 2.5rem;
     }
     .pitch{
-    	left: 15vw;
+    	left: 0;
+    	margin-left: 2.5rem;
     }
     .text{
         height: 300px;
