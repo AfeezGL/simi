@@ -25,8 +25,11 @@ hr {
 	max-width: 1050px;
 	margin: 4.5rem auto;
 }
+.logo{
+	width: 100px;
+}
 .jumbotron{
-	background: url("pexels-michael-steinberg-366551.jpg");
+	background: url("bags.jpg");
 	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -60,9 +63,9 @@ nav ul li a{
     font-weight: 900;
     color: white;
     position: absolute;
-    top: 25vh;
-    left: 2.5rem;
-    line-height: 2.6em;
+    top: 27vh;
+    left: 22vw;
+    line-height: 2.4em;
 }
 .wwd{
 	margin: 4.5rem auto;
@@ -144,7 +147,14 @@ nav ul li a{
 	margin-top: 1rem;
 }
 footer h1{
+	max-width: 1050px;
+	margin: 0 auto;
 	margin-bottom: 30px;
+}
+form{
+	max-width: 1050px;
+	margin: 0 auto;
+
 }
 .email-input{
 	height: 60px;
@@ -160,7 +170,8 @@ footer h1{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	justify-content: space-between;
-	margin: 2.5rem 0;
+	margin: 2.5rem auto;
+	max-width: 1050px
 }
 footer ul{
 	list-style-type: none;
