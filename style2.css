@@ -1,6 +1,11 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'montserrat'
+}
+.mb-2{
+	margin-bottom: 20px;
 }
 .white-bg{
     background-color: white;
@@ -14,4 +19,76 @@
 .container{
     max-width: 1050px;
     margin: 0 auto;
+    padding: 40px 0;
+}
+.btn-yellow{
+	background-color: #ffe14d;
+	width: 160px;
+	height: 60px;
+	border: 1px solid #ffe14d;
+}
+.grid{
+	display: grid;
+}
+.contact-form{
+	width: 500px;
+	overflow: auto;
+}
+.contact-form input, textarea{
+	display: block;
+	width: 100%;
+	max-width: 490px;
+	overflow: hidden;
+	margin-bottom: 40px;
+	font-size: 15px;
+}
+.contact-form button{
+	float: right;
+}
+textarea{
+	height: 200px;
+	padding: 15px;
+	border: 1px solid;
+}
+input{
+	height: 50px;
+	border: 1px solid;
+	padding: 0 15px;
+}
+.email-input{
+	height: 60px;
+	width: 50%;
+	max-width: 500px;
+	border: 1px solid black;
+	border-radius: 0;
+	margin-right: 2.5rem;
+	padding: 0 3rem;
+	font-size: 15px;
+}
+.footer-menu{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	justify-content: space-between;
+	margin: 2.5rem auto;
+	max-width: 1050px
+}
+footer ul{
+	list-style-type: none;
+	line-height: 2rem;
+}
+.socials{
+    margin: 1rem auto;
+    width: 100%;
+}
+.socials ul{
+    list-style-type: none;
+}
+.socials li{
+    border-radius: 7px;
+    display: inline;
+}
+.socials img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
 }
