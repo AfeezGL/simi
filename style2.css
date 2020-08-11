@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.white-bg{
+    background-color: white;
+}
+.yellow-bg{
+    background-color: #ffe14d;
+}
+.green-bg{
+    background-color: #15af4b;
+}
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
