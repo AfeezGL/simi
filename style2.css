@@ -35,6 +35,9 @@ hr{
 }
 .grid{
 	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+	grid-gap: 4rem;
+	margin: 0 auto
 }
 .logo{
 	width: 100px;
@@ -68,13 +71,11 @@ nav ul li a{
 	font-weight: 900;
 }
 .contact-form{
-	width: 500px;
 	overflow: auto;
 }
 .contact-form input, textarea{
 	display: block;
 	width: 100%;
-	max-width: 490px;
 	overflow: hidden;
 	margin-bottom: 40px;
 	font-size: 15px;
@@ -84,9 +85,9 @@ nav ul li a{
 }
 textarea{
 	height: 200px;
-	padding: 15px;
 	border: 1px solid;
-	overflow: scroll-x;
+	padding: 15px;
+	overflow: scroll;
 }
 input{
 	height: 50px;
@@ -136,4 +137,10 @@ input{
     height: 40px;
     width: 40px;
     border-radius: 20px;
+}
+@media (max-width: 1050px){
+    .container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
