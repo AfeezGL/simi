@@ -119,14 +119,15 @@ nav ul li a{
 	color: black;
 }
 .winners{
-	width: 100%;
 	margin: 0 auto;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
+	gap: 2em;
 }
 .winner{
 	background-color: #fff2b2;
-	width: 320px;
+	flex-basis: 320px;
 	padding: 2.5rem 1rem;
 }
 .winner img{
