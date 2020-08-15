@@ -30,13 +30,6 @@ hr {
 }
 .jumbotron{
 	background: url("hero.jpg");
-	height: 100vh;
-	max-height: 1050px;
-	width: 100vw;
-	max-width: 1050px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 nav{
 	padding-top: 50px;
