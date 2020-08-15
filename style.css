@@ -32,6 +32,8 @@ hr {
 	background: url("hero.jpg");
         height: 100vh;
         max-height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 nav{
 	padding-top: 50px;
