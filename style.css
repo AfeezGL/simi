@@ -29,7 +29,7 @@ hr {
 	width: 100px;
 }
 .jumbotron{
-	background: url("hero.jpg");
+	background-image: url("hero.jpg");
         height: 100vh;
         max-height: 900px;
 	background-position: center;
@@ -241,6 +241,6 @@ footer ul{
 		width: 140px;
 	}
         .jumbotron{
-		height: 500px;
+		height: 700px;
 	}
 }
