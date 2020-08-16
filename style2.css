@@ -37,12 +37,6 @@ hr{
 	height: 60px;
 	border: 1px solid #ffe14d;
 }
-.grid{
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-	grid-gap: 4rem;
-	margin: 0 auto
-}
 .logo{
 	width: 100px;
 }
@@ -71,8 +65,50 @@ nav ul li a{
     color: inherit;
     text-decoration: none;
 }
+.focus{
+	font-weight: 900;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 2rem;
+	margin: 0 auto
+}
+.text h1{
+	margin-bottom: 3rem;
+}
+.image img{
+	width: 100%;
+	max-width: 480px;
+}
 .returns{
 	text-align: center;
+}
+.returns h1{
+	margin: 1rem auto;
+}
+.illustration{
+	margin: 0 auto;
+	text-align: center;
+	height: 120px;
+	margin-bottom: 1rem;
+}
+.symbol{
+	display: inline-block;
+	margin: 0 20px;
+	padding-bottom: 50px;
+}
+.symbol h1{
+	font-size: 50px;
+}
+figure{
+	display: inline-block;
+}
+figure img{
+	width: 70px;
+}
+figcaption{
+	font-weight: 700;
 }
 .opportunity{
 	max-width: 700px;
@@ -81,17 +117,33 @@ nav ul li a{
 .opportunity h1{
 	margin-bottom: 2rem;
 }
+.the-opportunity{
+	background-image: url("Character.svg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 450px 400px;
+}
 .white-box{
 	background-color: white;
 	border: 1px solid black;
 	padding: 10px;
 	overflow: auto;
+	max-width: 600px;
 }
 .total{
 	float: right;
 }
-.focus{
-	font-weight: 900;
+.strategy{
+	background-image: url("Character-1.svg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 450px 400px;
+}
+.strategy h1{
+	margin-bottom: 2rem;
+}
+.strategy h4{
+	margin: 2rem 0;
 }
 .contact-form{
 	overflow: auto;
