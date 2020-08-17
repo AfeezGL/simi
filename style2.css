@@ -118,7 +118,7 @@ figcaption{
 	margin-bottom: 2rem;
 }
 .the-opportunity{
-	background-image: url("Character.svg");
+	background-image: url("assets/Character.svg");
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: 450px 400px;
@@ -134,7 +134,7 @@ figcaption{
 	float: right;
 }
 .strategy{
-	background-image: url("Character-1.svg");
+	background-image: url("assets/Character-1.svg");
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: 450px 400px;
@@ -147,7 +147,7 @@ figcaption{
 }
 .form-container{
 	width: 100%;
-	background-image: url("Contact-us.svg");
+	background-image: url("assets/Contact-us.svg");
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: 500px 500px;
