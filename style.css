@@ -216,6 +216,11 @@ footer ul{
         padding: 0 1.5rem;
     }
 }
+@media (max-width: 900px){
+	.jumbotron{
+                max-height: 700px;
+        }
+}
 @media (max-width: 700px){
 	.winners{
 		display: grid;
@@ -228,9 +233,6 @@ footer ul{
 		margin: 0 auto;
 		overflow: hidden;
 	}
-        .jumbotron{
-                max-height: 700px;
-        }
 }
 @media (max-width: 500px){
 	.email-input{
