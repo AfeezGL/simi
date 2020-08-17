@@ -92,14 +92,14 @@ nav ul li a{
 	text-align: center;
 	height: 120px;
 	margin-bottom: 1rem;
+	display: inline-flex;
 }
 .symbol{
-	display: inline-block;
 	margin: 0 20px;
-	padding-bottom: 50px;
 }
 .symbol h1{
 	font-size: 50px;
+	align-self: auto;
 }
 figure{
 	display: inline-block;
@@ -145,7 +145,15 @@ figcaption{
 .strategy h4{
 	margin: 2rem 0;
 }
+.form-container{
+	width: 100%;
+	background-image: url("Contact-us.svg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 500px 500px;
+}
 .contact-form{
+	max-width: 500px;
 	overflow: auto;
 }
 .contact-form input, textarea{
@@ -168,6 +176,9 @@ input{
 	height: 50px;
 	border: 1px solid;
 	padding: 0 15px;
+}
+.invite{
+	margin-bottom: 2rem;
 }
 .email-input{
 	height: 60px;
