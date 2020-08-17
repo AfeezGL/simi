@@ -30,7 +30,7 @@ hr {
 }
 .jumbotron{
 	background-image: url("assets/hero.jpg");
-	background-position: center;
+	background-position: right center;
         background-size: cover;
 	background-repeat: no-repeat;
     height: 100%;
@@ -215,11 +215,6 @@ footer ul{
     footer > div{
         padding: 0 1.5rem;
     }
-}
-@media (max-width: 900px){
-	.jumbotron{
-                max-height: 900px;
-        }
 }
 @media (max-width: 700px){
 	.winners{
