@@ -228,10 +228,11 @@ footer ul{
 		margin: 0 auto;
 		overflow: hidden;
 	}
-        .jumbotron::after{
+        .jumbotron{
 		height: 70vh;
                 background-image: url("assets/hero.jpg");
                 background-size: cover;
+                background-position: center;
 	        background-repeat: no-repeat;
 	}
 }
