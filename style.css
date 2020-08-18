@@ -232,7 +232,7 @@ footer ul{
 		height: 70vh;
                 background-image: url("assets/hero.jpg");
 	        background-position: center;
-                background-size: cover;
+                background-size: contain;
 	        background-repeat: no-repeat;
 	}
 }
