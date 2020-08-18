@@ -231,8 +231,8 @@ footer ul{
         .jumbotron{
 		height: 70vh;
                 background-image: url("assets/hero.jpg");
-                background-size: 700px;
-                background-position: center;
+                background-size: 700px 900px;
+                background-position: top left;
 	        background-repeat: no-repeat;
 	}
 }
