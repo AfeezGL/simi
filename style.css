@@ -15,11 +15,26 @@ hr {
 .text-center {
 	text-align: center;
 }
+.more-btn{
+	background-color: #fed401;
+	border: 1px solid #fed401;
+	padding: 19px;
+	font-weight: 600;
+	font-size: 15px;
+}
 .btn-yellow {
 	background-color: #fed401;
 	width: 160px;
 	height: 60px;
 	border: 1px solid #fed401;
+}
+.btn-yellow-link {
+	background-color: #fed401;
+	width: 160px;
+	border: 1px solid #fed401;
+	padding: 19px 0;
+	font-weight: 600;
+	text-align: center;
 }
 .container{
 	max-width: 1050px;
@@ -30,11 +45,11 @@ hr {
 }
 .jumbotron{
 	background-image: url("assets/hero.jpg");
-	background-position: right center;
-        background-size: cover;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
-        overflow: auto;
     height: 100vh;
+    max-height: 1000px;
 }
 nav{
 	padding-top: 50px;
@@ -228,12 +243,12 @@ footer ul{
 		margin: 0 auto;
 		overflow: hidden;
 	}
-        .jumbotron{
+	.jumbotron{
 		height: 70vh;
-                background-image: url("assets/hero.jpg");
-                background-size: cover;
-                background-position: top left;
-	        background-repeat: no-repeat;
+        background-image: url("assets/hero.jpg");
+        background-size: cover;
+        background-position: top left;
+	    background-repeat: no-repeat;
 	}
 }
 @media (max-width: 500px){
