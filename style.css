@@ -8,11 +8,11 @@ a{
 	color: black;
 	text-decoration: none;
 }
-hr {
+hr{
 	border-top: 1px solid black;
 	border-bottom: 1px solid white;
 }
-.text-center {
+.text-center{
 	text-align: center;
 }
 .more-btn{
@@ -23,14 +23,14 @@ hr {
 	font-size: 15px;
 	transition: 0.6s;
 }
-.btn-yellow {
+.btn-yellow{
 	background-color: #fed401;
 	width: 160px;
 	height: 60px;
 	border: 1px solid #fed401;
 	transition: 0.6s;
 }
-.btn-yellow-link {
+.btn-yellow-link{
 	background-color: #fed401;
 	width: 160px;
 	border: 1px solid #fed401;
@@ -98,14 +98,14 @@ ul li a:hover, .card a:hover{
 .wwd{
 	margin: 4.5rem auto;
 }
-.what-we-do {
+.what-we-do{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	max-width: 1050px;
 	grid-gap: 1rem;
 	margin: 0 auto;
 }
-.card {
+.card{
 	margin: 0;
 	padding: 2.5rem 2.5rem 3rem 2.5rem;
 	background-color: #ffe14d;
@@ -132,7 +132,7 @@ ul li a:hover, .card a:hover{
 	grid-gap: 4rem;
 	margin: 0 auto;
 }
-.grid img {
+.grid img{
 	max-width: 100%;
 	max-height: 100%;
 	object-fit: scale-down;
@@ -149,28 +149,31 @@ ul li a:hover, .card a:hover{
 .winners{
 	margin: 0 auto;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 2em;
+	gap: 1.5em;
 }
 .winner{
 	background-color: #fff2b2;
 	flex-basis: 320px;
 	padding: 2.5rem 1rem;
 }
+.winner-img{
+	display: inline-block;
+}
 .winner img{
 	width: 80px;
 	height: 80px;
 	object-fit: cover;
-	border-radius: 40px;
-	float: left;
-	margin-right: 10px;
-}
-.profile{
-	overflow: auto;
+	border-radius: 50%;
+	vertical-align: middle;
 }
 .name{
-	margin: auto;
+	display: inline-block;
+	margin: 0;
+}
+.name p{
+	min-width: 70px;
+	max-width: 300px;
 }
 .comment{
 	margin-top: 1rem;
@@ -197,7 +200,7 @@ form{
 }
 .footer-menu{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(4, 1fr);
 	justify-content: space-between;
 	margin: 2.5rem auto;
 	max-width: 1050px
@@ -215,13 +218,12 @@ footer ul{
 	list-style-type: none;
 }
 .socials li{
-	border-radius: 7px;
 	display: inline;
 }
 .socials img{
 	height: 30px;
 	width: 30px;
-	border-radius: 15px;
+	border-radius: 50%;
 }
 @media (max-width: 1000px){
 	.pitch{
@@ -232,25 +234,21 @@ footer ul{
 		height: 300px;
 		padding: 0 1.5rem;
 	}
-	.footer-menu{
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-	}
 	footer > div{
 		padding: 0 1.5rem;
 	}
 }
-@media (max-width: 700px){
-	.winners{
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-		grid-gap: 1rem;
-		justify-content: space-around;
-	}
+@media (max-width: 800px){
 	.winner{
-		width: 300px;
-		margin: 0 auto;
-		overflow: hidden;
+		padding: 1.5rem 1rem;
 	}
+}
+@media (max-width: 767px){
+	.footer-menu{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+@media (max-width: 700px){
 	.jumbotron{
 		height: 70vh;
 		background-image: url("assets/hero.jpg");
@@ -262,10 +260,18 @@ footer ul{
 @media (max-width: 500px){
 	.email-input{
 		height: 50px;
-		padding: 0.2rem;
+		padding-left: 0.2rem;
 		margin-right: 2rem;
 	}
 	.submit{
 		width: 140px;
+	}
+	.winners{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		grid-gap: 1rem;
+		justify-content: space-around;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
 	}
 }
