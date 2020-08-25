@@ -173,7 +173,7 @@ ul li a:hover, .card a:hover{
 }
 .name p{
 	min-width: 70px;
-	max-width: 300px;
+	max-width: 200px;
 }
 .comment{
 	margin-top: 1rem;
@@ -273,5 +273,8 @@ footer ul{
 		justify-content: space-around;
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
+	}
+	.name{
+	    max-width: 100%;
 	}
 }
