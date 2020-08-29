@@ -173,7 +173,7 @@ ul li a:hover, .card a:hover{
 }
 .name p{
 	min-width: 70px;
-	max-width: 200px;
+	max-width: 300px;
 }
 .comment{
 	margin-top: 1rem;
@@ -251,7 +251,7 @@ footer ul{
 @media (max-width: 700px){
 	.jumbotron{
 		height: 70vh;
-		background-image: url("assets/hero.jpg");
+		background-image: url("assets/hero2.jpeg");
 		background-size: cover;
 		background-position: top left;
 		background-repeat: no-repeat;
@@ -273,8 +273,5 @@ footer ul{
 		justify-content: space-around;
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
-	}
-	.name{
-	    max-width: 100%;
 	}
 }
