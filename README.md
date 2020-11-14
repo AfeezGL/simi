@@ -4,7 +4,6 @@ A colour rich mobile responsive landing page website for a Nigerian based rice p
 ### Stack
 - HTML5
 - CSS3
-- Javascript
 
 ### Deployment
 - Hosting - Netlify
